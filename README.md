@@ -9,18 +9,20 @@ It provides detailed reports Shows weaknesses and how to fix them.
 It's trusted worldwide Used by companies, governments, and security experts.
 
 # Nessus scans
-#Basic Network Scan
+#Basic Network Scan </br>
 This is the most common and easiest Nessus scan.
 It scans a network for common vulnerabilities, open ports, and misconfigurations.
 Requires minimal configuration-just select the scan, enter the target IPs, and run it.
 
-#Discovery Scan
+#Discovery Scan </br>
 This scan helps find all devices (computers, servers, routers, etc.) connected to a network.
 It doesn't check for vulnerabilities-it just identifies what's there.
+
+->When to Use It?
 Helps security teams know what devices are in their network.
 Detects unauthorized devices (e.g., an unknown laptop connected to your Wi-Fi).
 
-#Advanced scan
+#Advanced scan </br>
 This scan allows full customization, making it powerful for penetration testers.
 You can choose specific plugins, scan depth, authentication methods, and more.
 Provides more accurate results than a Basic Network Scan.
@@ -30,7 +32,7 @@ When you need a detailed and customizable scan.
 For internal penetration testing (authenticated scans provide deeper insights).
 When scanning specific systems or services (e.g., only web servers)
 
-#Authentication Vulnerability scan
+#Authentication Vulnerability scan </br>
 In a normal vulnerability scan, Nessus checks for security weaknesses without logging into the target system.
 Authenticated scanning means Nessus logs into the system with valid credentials (like a username and password) to scan deeper.
 It allows Nessus to check inside the system, not just from the outside.
