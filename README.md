@@ -18,7 +18,7 @@ Requires minimal configuration-just select the scan, enter the target IPs, and r
 This scan helps find all devices (computers, servers, routers, etc.) connected to a network.
 It doesn't check for vulnerabilities-it just identifies what's there.
 
-->When to Use It?
+->When to Use It? </br>
 Helps security teams know what devices are in their network.
 Detects unauthorized devices (e.g., an unknown laptop connected to your Wi-Fi).
 
@@ -27,7 +27,7 @@ This scan allows full customization, making it powerful for penetration testers.
 You can choose specific plugins, scan depth, authentication methods, and more.
 Provides more accurate results than a Basic Network Scan.
 
-->When to Use It?
+->When to Use It? </br>
 When you need a detailed and customizable scan.
 For internal penetration testing (authenticated scans provide deeper insights).
 When scanning specific systems or services (e.g., only web servers)
